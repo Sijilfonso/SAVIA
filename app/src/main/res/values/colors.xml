@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SAVIA Primary Palette -->
+    <color name="savia_green_dark">#0D3B2E</color>
+    <color name="savia_green_medium">#1A5C4A</color>
+    <color name="savia_green_light">#4A7C59</color>
+    <color name="savia_gold">#C89F3C</color>
+    <color name="savia_gold_light">#D4B86A</color>
+    <color name="savia_bg_main">#F7F6F2</color>
+    <color name="savia_bg_card">#FFFFFF</color>
+    <color name="savia_text_primary">#1A1A1A</color>
+    <color name="savia_text_secondary">#6B6B6B</color>
+    <color name="savia_text_hint">#9A9A9A</color>
+    <color name="savia_border">#E5E2DA</color>
+    <color name="savia_divider">#E5E2DA</color>
+    <color name="savia_white">#FFFFFF</color>
+    <color name="savia_black">#000000</color>
+
+    <!-- Status Colors -->
+    <color name="status_green">#4A7C59</color>
+    <color name="status_gold">#C89F3C</color>
+    <color name="status_red">#DC2626</color>
+    <color name="status_blue">#3B82F6</color>
+    <color name="status_orange">#F97316</color>
+
+    <!-- WhatsApp -->
+    <color name="whatsapp_green">#25D366</color>
+
+    <!-- Flash Offer -->
+    <color name="flash_offer_bg">#FEF2F2</color>
+    <color name="flash_offer_text">#DC2626</color>
+
+    <!-- Panel Stats Cards (alias for layouts) -->
+    <color name="savia_blue_light">#EBF4FF</color>
+    <color name="savia_gray_light">#F3F4F6</color>
+    <color name="savia_green_light">#ECFDF5</color>
+    <color name="savia_yellow_light">#FEF9C3</color>
+
+    <!-- Stats cards -->
+    <color name="stats_blue_light">#EBF4FF</color>
+    <color name="stats_grey_light">#F3F4F6</color>
+    <color name="stats_green_light">#ECFDF5</color>
+    <color name="stats_yellow_light">#FEF9C3</color>
+
+    <!-- Welcome Gradient -->
+    <color name="welcome_gradient_start">#0D3B2E</color>
+    <color name="welcome_gradient_mid">#1A5C4A</color>
+    <color name="welcome_gradient_end">#C89F3C</color>
+</resources>

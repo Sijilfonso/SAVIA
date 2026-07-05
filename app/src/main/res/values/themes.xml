@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Savia" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/savia_green_dark</item>
+        <item name="colorPrimaryVariant">@color/savia_green_medium</item>
+        <item name="colorOnPrimary">@color/savia_white</item>
+
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/savia_gold</item>
+        <item name="colorSecondaryVariant">@color/savia_gold_light</item>
+        <item name="colorOnSecondary">@color/savia_white</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/savia_bg_main</item>
+        <item name="colorSurface">@color/savia_bg_card</item>
+        <item name="colorOnSurface">@color/savia_text_primary</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/status_red</item>
+        <item name="colorOnError">@color/savia_white</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/savia_green_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/savia_bg_main</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Typography defaults -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Savia.Headline</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Savia.Body</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Savia.Caption</item>
+
+        <!-- Component styles -->
+        <item name="materialButtonStyle">@style/Widget.Savia.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Savia.Button.Outlined</item>
+        <item name="textInputStyle">@style/Widget.Savia.TextInput</item>
+        <item name="cardViewStyle">@style/Widget.Savia.Card</item>
+        <item name="chipStyle">@style/Widget.Savia.Chip</item>
+    </style>
+
+    <!-- Welcome Theme (full screen gradient) -->
+    <style name="Theme.Savia.Welcome" parent="Theme.Savia">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/welcome_gradient_end</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Login Theme (dark green status bar) -->
+    <style name="Theme.Savia.Login" parent="Theme.Savia">
+        <item name="android:statusBarColor">@color/savia_green_dark</item>
+        <item name="android:navigationBarColor">@color/savia_bg_main</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Map Theme (dark status bar) -->
+    <style name="Theme.Savia.Map" parent="Theme.Savia">
+        <item name="android:statusBarColor">@color/savia_black</item>
+        <item name="android:navigationBarColor">@color/savia_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

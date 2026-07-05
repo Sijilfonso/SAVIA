@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">SAVIA</string>
+
+    <!-- Welcome -->
+    <string name="welcome_slogan">Camagüey crece aquí</string>
+    <string name="welcome_button_start">Comenzar a comprar</string>
+    <string name="welcome_link_business">¿Tienes un negocio? Accede aquí</string>
+
+    <!-- Home -->
+    <string name="home_title">Inicio</string>
+    <string name="home_search_hint">Buscar productos, negocios…</string>
+    <string name="home_filter_all">Todo</string>
+    <string name="home_filter_cup">CUP</string>
+    <string name="home_filter_usd">USD</string>
+    <string name="home_filter_today">Hoy</string>
+    <string name="home_filter_deals">Gangas</string>
+    <string name="home_filter_services">Servicios</string>
+    <string name="home_nearby">Cerca de ti</string>
+    <string name="home_featured">Destacados</string>
+
+    <!-- Store Profile -->
+    <string name="store_contact_whatsapp">Contactar por WhatsApp</string>
+    <string name="store_address">Dirección</string>
+    <string name="store_zone">Zona</string>
+    <string name="store_schedule">Horario</string>
+    <string name="store_delivery">Entrega</string>
+    <string name="store_catalog">Catálogo</string>
+    <string name="store_filter_all">Todo</string>
+    <string name="store_filter_in_stock">En stock</string>
+    <string name="store_filter_order">Por encargo</string>
+    <string name="store_filter_services">Servicios</string>
+    <string name="store_badge_verified">Verificado</string>
+    <string name="store_badge_featured">Destacado</string>
+    <string name="store_entity_mipyme">Empresa local</string>
+    <string name="store_entity_tcp">Negocio personal</string>
+    <string name="store_entity_pdl">Proyecto comunitario</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Carrito</string>
+    <string name="cart_empty">Tu carrito está vacío</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_view_route">Ver ruta de compras</string>
+    <string name="cart_clear">Vaciar carrito</string>
+    <string name="cart_quantity">Cantidad</string>
+    <string name="cart_add">+</string>
+    <string name="cart_remove">−</string>
+
+    <!-- Route -->
+    <string name="route_title">Ruta de compras</string>
+    <string name="route_walking">Caminando</string>
+    <string name="route_moto">Moto</string>
+    <string name="route_car">Auto</string>
+    <string name="route_total_distance">Distancia total</string>
+    <string name="route_total_time">Tiempo estimado</string>
+    <string name="route_open_maps">Abrir en Google Maps</string>
+    <string name="route_stop_completed">Completado</string>
+
+    <!-- Map -->
+    <string name="map_title">Mapa</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_location">Ubicación</string>
+    <string name="settings_location_edit">Editar manualmente</string>
+    <string name="settings_location_gps">Usar GPS</string>
+    <string name="settings_currency">Moneda preferida</string>
+    <string name="settings_currency_cup">CUP</string>
+    <string name="settings_currency_usd">USD</string>
+    <string name="settings_currency_both">Ambas</string>
+    <string name="settings_clear_data">Borrar todos mis datos</string>
+    <string name="settings_clear_confirm">¿Borrar todo el carrito y preferencias locales?</string>
+    <string name="settings_clear_yes">Borrar</string>
+    <string name="settings_clear_cancel">Cancelar</string>
+
+    <!-- Login -->
+    <string name="login_title">Acceso para negocios</string>
+    <string name="login_username">Usuario</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_button">Ingresar</string>
+    <string name="login_forgot">¿Olvidaste tu contraseña?</string>
+    <string name="login_register">Crear cuenta nueva</string>
+    <string name="login_error">Usuario o contraseña incorrectos</string>
+
+    <!-- Password Recovery -->
+    <string name="recovery_title">Recuperar contraseña</string>
+    <string name="recovery_username">Nombre de usuario</string>
+    <string name="recovery_send_code">Enviar código por WhatsApp</string>
+    <string name="recovery_code">Código de 6 dígitos</string>
+    <string name="recovery_new_password">Nueva contraseña</string>
+    <string name="recovery_confirm_password">Confirmar contraseña</string>
+    <string name="recovery_button">Restablecer contraseña</string>
+    <string name="recovery_success">Contraseña actualizada</string>
+    <string name="recovery_error_code">Código inválido o expirado</string>
+    <string name="recovery_fallback">Contacta al soporte de SAVIA por WhatsApp</string>
+    <string name="recovery_support_message">Hola, necesito recuperar mi contraseña. Mi username es: %s</string>
+
+    <!-- Register Store -->
+    <string name="register_title">Registrar negocio</string>
+    <string name="register_step_1">Representante</string>
+    <string name="register_step_2">Negocio</string>
+    <string name="register_step_3">Ubicación</string>
+    <string name="register_step_4">Credenciales</string>
+    <string name="register_name">Nombre completo</string>
+    <string name="register_ci">Carné de identidad</string>
+    <string name="register_phone">Teléfono</string>
+    <string name="register_store_name">Nombre público del negocio</string>
+    <string name="register_type">Tipo de entidad</string>
+    <string name="register_type_mipyme">MIPYME</string>
+    <string name="register_type_tcp">TCP</string>
+    <string name="register_type_pdl">PDL</string>
+    <string name="register_license">ID / Licencia estatal</string>
+    <string name="register_address">Dirección completa</string>
+    <string name="register_category">Categoría principal</string>
+    <string name="register_hours">Horario de atención</string>
+    <string name="register_delivery">Información de entrega</string>
+    <string name="register_web">Página web (opcional)</string>
+    <string name="register_location_pin">Ubica tu negocio en el mapa</string>
+    <string name="register_username">Nombre de usuario</string>
+    <string name="register_password">Contraseña (mín. 8 caracteres)</string>
+    <string name="register_password_confirm">Confirmar contraseña</string>
+    <string name="register_recovery_phone">Teléfono WhatsApp para recuperación</string>
+    <string name="register_submit">Enviar solicitud</string>
+    <string name="register_pending">Verificación pendiente (24–48h)</string>
+
+    <!-- Vendor Panel -->
+    <string name="panel_title">Panel de control</string>
+    <string name="panel_tab_summary">Resumen</string>
+    <string name="panel_tab_catalog">Catálogo</string>
+    <string name="panel_tab_config">Config</string>
+    <string name="panel_stock_banner">Stock al día</string>
+    <string name="panel_stock_days">Llevas %d días sin actualizar</string>
+    <string name="panel_stats_visits_profile">Visitas a tu perfil</string>
+    <string name="panel_stats_visits_products">Visitas a tus productos</string>
+    <string name="panel_stats_whatsapp">Clicks WhatsApp</string>
+    <string name="panel_stats_products_active">Productos activos</string>
+    <string name="panel_filter_today">Hoy</string>
+    <string name="panel_filter_week">Esta semana</string>
+    <string name="panel_filter_month">Este mes</string>
+    <string name="panel_filter_year">Este año</string>
+    <string name="panel_confirm_stock">Confirmar stock actualizado</string>
+    <string name="panel_add_product">Añadir producto</string>
+    <string name="panel_flash_offer">Oferta flash</string>
+    <string name="panel_visitors">Quién te visitó</string>
+    <string name="panel_id_label">ID: %s</string>
+
+    <!-- Admin -->
+    <string name="admin_title">Administración</string>
+    <string name="admin_tab_verification">Verificación</string>
+    <string name="admin_tab_metrics">Métricas</string>
+    <string name="admin_tab_moderation">Moderación</string>
+    <string name="admin_approve">Aprobar</string>
+    <string name="admin_reject">Rechazar</string>
+    <string name="admin_id_col">ID</string>
+    <string name="admin_type_col">Tipo</string>
+    <string name="admin_name_col">Nombre</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_cart">Carrito</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- General -->
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="search">Buscar</string>
+    <string name="loading">Cargando…</string>
+    <string name="error_generic">Algo salió mal. Inténtalo de nuevo.</string>
+    <string name="no_results">No se encontraron resultados</string>
+    <string name="close">Cerrar</string>
+    <string name="share">Compartir</string>
+    <string name="copy">Copiar</string>
+    <string name="copied">Copiado al portapapeles</string>
+</resources>

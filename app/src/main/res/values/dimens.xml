@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard spacing -->
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_48">48dp</dimen>
+    <dimen name="space_64">64dp</dimen>
+
+    <!-- Horizontal padding standard -->
+    <dimen name="padding_horizontal">16dp</dimen>
+
+    <!-- Card spacing -->
+    <dimen name="card_spacing">12dp</dimen>
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_corner_radius_large">24dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_elevation_pressed">4dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_height">48dp</dimen>
+    <dimen name="button_corner_radius">12dp</dimen>
+
+    <!-- Input -->
+    <dimen name="input_height">48dp</dimen>
+    <dimen name="input_height_large">56dp</dimen>
+    <dimen name="input_corner_radius">12dp</dimen>
+
+    <!-- Bottom navigation -->
+    <dimen name="bottom_nav_height">56dp</dimen>
+    <dimen name="bottom_nav_icon_size">24dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+
+    <!-- Welcome screen -->
+    <dimen name="welcome_logo_size">120dp</dimen>
+    <dimen name="welcome_button_width">280dp</dimen>
+
+    <!-- Product card image -->
+    <dimen name="product_image_size">80dp</dimen>
+    <dimen name="product_image_corner">8dp</dimen>
+</resources>
