@@ -6,6 +6,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.savia.camaguey.R
 import com.savia.camaguey.data.model.Store
 import com.savia.camaguey.databinding.ItemStoreFeaturedBinding
 import com.savia.camaguey.util.Constants
