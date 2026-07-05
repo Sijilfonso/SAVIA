@@ -73,7 +73,7 @@ object Constants {
     // Currency display symbols
     fun currencySymbol(moneda: String): String {
         return when (moneda.uppercase()) {
-            "CUP" -> "$")
+            "CUP" -> "$"
             "USD" -> "USD"
             "MLC" -> "MLC"
             else -> moneda
