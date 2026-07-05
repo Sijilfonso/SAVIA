@@ -118,7 +118,7 @@
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
                         android:layout_margin="4dp"
-                        app:cardBackgroundColor="@color/savia_blue_light"
+                        app:cardBackgroundColor="@color/stats_blue_light"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="2dp">
 
@@ -153,7 +153,7 @@
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
                         android:layout_margin="4dp"
-                        app:cardBackgroundColor="@color/savia_yellow_light"
+                        app:cardBackgroundColor="@color/stats_yellow_light"
                         app:cardCornerRadius="12dp"
                         app:cardElevation="2dp">
 
