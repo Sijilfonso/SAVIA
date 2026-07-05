@@ -1,0 +1,77 @@
+name: Build & Release APK
+
+on:
+  push:
+    branches: [main, master]
+    tags: ['v*']
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+env:
+  JAVA_VERSION: 17
+  GRADLE_VERSION: 8.4
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ env.JAVA_VERSION }}
+          distribution: 'temurin'
+
+      - name: Cache Gradle
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Build APK (debug)
+        run: ./gradlew assembleDebug
+
+      - name: Build APK (release)
+        run: ./gradlew assembleRelease
+        env:
+          SAVIA_KEYSTORE_PASSWORD: ${{ secrets.SAVIA_KEYSTORE_PASSWORD }}
+          SAVIA_KEY_ALIAS: ${{ secrets.SAVIA_KEY_ALIAS }}
+          SAVIA_KEY_PASSWORD: ${{ secrets.SAVIA_KEY_PASSWORD }}
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: savia-apk
+          path: |
+            app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/release/*.apk
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            app/build/outputs/apk/release/*.apk
+          body: |
+            Nueva versión de SAVIA — Camagüey Compra Local.
+
+            ### Instalación
+            1. Descarga el APK
+            2. Habilita "Origenes desconocidos" en Ajustes > Seguridad
+            3. Instala el APK
+
+            ### Requisitos
+            - Android 5.0+ (API 21)
+            - Compatible con Huawei sin Google Play Services
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
