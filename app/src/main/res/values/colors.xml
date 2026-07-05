@@ -30,12 +30,6 @@
     <color name="flash_offer_bg">#FEF2F2</color>
     <color name="flash_offer_text">#DC2626</color>
 
-    <!-- Panel Stats Cards (alias for layouts) -->
-    <color name="savia_blue_light">#EBF4FF</color>
-    <color name="savia_gray_light">#F3F4F6</color>
-    <color name="savia_green_light">#ECFDF5</color>
-    <color name="savia_yellow_light">#FEF9C3</color>
-
     <!-- Stats cards -->
     <color name="stats_blue_light">#EBF4FF</color>
     <color name="stats_grey_light">#F3F4F6</color>
